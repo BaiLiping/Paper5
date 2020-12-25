@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Reinforcement Learning For Control Researchers}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Note on Notation and Nomenclature}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{From Optimization To Learning}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Bellman Update}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Bootstrap}{subsection.2.2}% 6
+\BOOKMARK [1][-]{section.3}{Expedited Data Collection on the Critical States with Active Boundary}{}% 7
+\BOOKMARK [1][-]{section.4}{Implement active Boundary in OpenAI Gym}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{CartPole and Inveretd Pendulum}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Inverted Double Pendulum}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Hopper}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.4}{Walker2d}{section.4}% 12
+\BOOKMARK [1][-]{section.5}{Conclution}{}% 13
+\BOOKMARK [1][-]{section*.13}{References}{}% 14
