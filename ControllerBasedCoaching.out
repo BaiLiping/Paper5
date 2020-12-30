@@ -1,9 +1,10 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Expedited Data Collection on the Critical States with Active Boundary}{}% 2
-\BOOKMARK [1][-]{section.3}{Implement active Boundary in OpenAI Gym}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{CartPole and Inveretd Pendulum}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Inverted Double Pendulum}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Hopper}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.4}{Walker2d}{section.3}% 7
-\BOOKMARK [1][-]{section.4}{Conclution}{}% 8
-\BOOKMARK [1][-]{section*.11}{References}{}% 9
+\BOOKMARK [1][-]{section.2}{From Optimization To Learning}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Bellman Update}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Bootstrap}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Experimental Setup}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Inveretd Pendulum}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Inverted Double Pendulum}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Hopper}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Conclution}{}% 9
+\BOOKMARK [1][-]{section*.7}{References}{}% 10
