@@ -90,23 +90,28 @@ In this paper, we hand-tune the PID controllers as the 'coaches'. The performanc
 \end{subfigure}
 \end{figure}
 
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
 
 \begin{table}
 \footnotesize
 \caption{PID Controller Vs Agent Score}
 \label{score}
 \centering
-\begin{tabular}{ |c|c|c|c| }
+\begin{tabular}{ cccc }
 \hline
-\cellcolor[HTML]{6195C9}Environment & \cellcolor[HTML]{6195C9}  PID Controller &\cellcolor[HTML]{6195C9}RL Agent &\cellcolor[HTML]{6195C9}PID\textbackslash RL \\
+\rowcolor{airforceblue}
+Environment &   PID Controller &RL Agent &PID\textbackslash RL \\
 \hhline~
+\rowcolor{beaublue}
 Inverted Pendulum &  264 & 1001& \cellcolor{lightgray}26.4\%\\
 \hhline~
-Double Pendulum &  358 & 9319&3.8\%\\
-\hline
-Hopper &  303 & 989&30.6\%\\
-\hline
-Walker &  332 & 1009&32.9\%\\
+Double Pendulum &  358 & 9319&\cellcolor{lightgray}3.8\%\\
+\hhline~
+\rowcolor{beaublue}
+Hopper &  303 & 989&\cellcolor{lightgray}30.6\%\\
+\hhline~
+Walker &  332 & 1009&\cellcolor{lightgray}32.9\%\\
 \hline
 \end{tabular}
 \end{table}
