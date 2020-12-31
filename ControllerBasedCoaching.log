@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  30 DEC 2020 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  31 DEC 2020 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,24 +851,32 @@ File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks43
+\minrowclearance=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks43
-\SOUL@lasttoken=\toks44
-\SOUL@cmds=\toks45
-\SOUL@buffer=\toks46
-\SOUL@token=\toks47
-\SOUL@spaceskip=\skip65
+\SOUL@word=\toks44
+\SOUL@lasttoken=\toks45
+\SOUL@cmds=\toks46
+\SOUL@buffer=\toks47
+\SOUL@token=\toks48
+\SOUL@spaceskip=\skip66
 \SOUL@ttwidth=\dimen311
 \SOUL@uldp=\dimen312
 \SOUL@ulht=\dimen313
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip66
+\OuterFrameSep=\skip67
 \fb@frw=\dimen314
 \fb@frh=\dimen315
 \FrameRule=\dimen316
@@ -887,30 +895,30 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./ControllerBasedCoaching.aux)
 \openout1 = `ControllerBasedCoaching.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Info: Redefining \microtypecontext on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Info: Redefining \microtypecontext on input line 45.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 41.
+LaTeX Info: Redefining \showhyphens on input line 45.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -925,12 +933,12 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 \scratchbox=\box112
 \nofMPsegments=\count329
 \nofMParguments=\count330
-\everyMPshowfont=\toks48
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count331
 \MPscratchDim=\dimen319
 \MPnumerator=\count332
 \makeMPintoPDFobject=\count333
-\everyMPtoPDFconversion=\toks49
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -949,7 +957,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box113
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -962,9 +970,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (./ControllerBasedCoaching.out) (./ControllerBasedCoaching.out)
 \@outlinefile=\write4
@@ -976,17 +984,172 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count335
-<PIDvsRL.png, id=88, 462.528pt x 346.896pt>
+
+
+LaTeX Warning: Citation `Mnih2013PlayingAW' on page 1 undefined on input line 6
+7.
+
+
+LaTeX Warning: Citation `Hausknecht2015DeepRQ' on page 1 undefined on input lin
+e 67.
+
+
+LaTeX Warning: Citation `Andrychowicz2020LearningDI' on page 1 undefined on inp
+ut line 67.
+
+
+LaTeX Warning: Citation `Kalashnikov2018QTOptSD' on page 1 undefined on input l
+ine 67.
+
+
+LaTeX Warning: Citation `Lee2020LearningQL' on page 1 undefined on input line 6
+7.
+
+
+LaTeX Warning: Citation `Ho2016GenerativeAI' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `Finn2016UnsupervisedLF' on page 1 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation `Pathak2017CuriosityDrivenEB' on page 1 undefined on in
+put line 69.
+
+
+LaTeX Warning: Citation `Burda2019LargeScaleSO' on page 1 undefined on input li
+ne 69.
+
+
+LaTeX Warning: Citation `Finn2017ModelAgnosticMF' on page 1 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation `Mishra2018ASN' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Nachum2018DataEfficientHR' on page 1 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `Vezhnevets2017FeUdalNF' on page 1 undefined on input l
+ine 69.
+
+
+LaTeX Warning: Citation `Blundell2015WeightUI' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `Gal2017ConcreteD' on page 1 undefined on input line 69
+.
+
+
+LaTeX Warning: Citation `Dasgupta2019CausalRF' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `Zhang2020DesigningOD' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `Han2020ActorCriticRL' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `Weinan2017APO' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Dupont2019AugmentedNO' on page 1 undefined on input li
+ne 69.
+
+
+LaTeX Warning: Citation `Betancourt2018OnSO' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `Nachum2020ReinforcementLV' on page 1 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `Luo2019ADR' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `Wu2020DataDrivenDL' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `Shi2019NeuralLS' on page 1 undefined on input line 69.
+
+
+
+LaTeX Warning: Citation `Hewing2020LearningBasedMP' on page 1 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation `Mohan2020EmbeddingHP' on page 1 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Citation `Lusch2018DeepLF' on page 1 undefined on input line 69.
+
+
+
+LaTeX Warning: Citation `Bai2019DeepEM' on page 1 undefined on input line 69.
+
+
+LaTeX Warning: Citation `BelbutePeres2020CombiningDP' on page 1 undefined on in
+put line 69.
+
+
+LaTeX Warning: Citation `Knox2009InteractivelySA' on page 1 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation `Knox2010CombiningMF' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `Peng2018DeepMimicED' on page 1 undefined on input line
+ 69.
+
+
+LaTeX Warning: Citation `Peng2020LearningAR' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `Paine2018OneShotHI' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Citation `Xie2018LearningWT' on page 1 undefined on input line 7
+1.
+
+
+LaTeX Warning: Citation `Carlucho2017IncrementalQS' on page 1 undefined on inpu
+t line 71.
+
+
+LaTeX Warning: Citation `Pavse2020RIDMRI' on page 1 undefined on input line 71.
+
+
+
+LaTeX Warning: Reference `fig:pid' on page 1 undefined on input line 75.
+
+
+LaTeX Warning: Reference `fig:comparison' on page 1 undefined on input line 75.
+
+
+<PIDvsRL.png, id=8, 462.528pt x 346.896pt>
 File: PIDvsRL.png Graphic file (type png)
 <use PIDvsRL.png>
-Package pdftex.def Info: PIDvsRL.png  used on input line 77.
+Package pdftex.def Info: PIDvsRL.png  used on input line 81.
 (pdftex.def)             Requested size: 129.0pt x 96.7491pt.
-
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -995,7 +1158,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1004,13 +1167,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<compare.png, id=90, 462.528pt x 346.896pt>
+<compare.png, id=10, 462.528pt x 346.896pt>
 File: compare.png Graphic file (type png)
 <use compare.png>
-Package pdftex.def Info: compare.png  used on input line 83.
+Package pdftex.def Info: compare.png  used on input line 87.
 (pdftex.def)             Requested size: 129.0pt x 96.7491pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 75--87
+Overfull \hbox (6.0pt too wide) in paragraph at lines 79--91
  []$[]$$[]$ 
  []
 
@@ -1018,128 +1181,180 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 75--87
 
 
 ]
-<Control.png, id=144, 1046.91125pt x 636.3775pt>
+
+LaTeX Warning: Citation `Bertsekas1996NeuroDynamicP' on page 2 undefined on inp
+ut line 156.
+
+
+LaTeX Warning: Citation `Nickolls2008ScalablePP' on page 2 undefined on input l
+ine 158.
+
+
+LaTeX Warning: Citation `Paszke2017AutomaticDI' on page 2 undefined on input li
+ne 158.
+
+
+LaTeX Warning: Citation `Abadi2016TensorFlowAS' on page 2 undefined on input li
+ne 158.
+
+
+LaTeX Warning: Citation `Recht2018ATO' on page 2 undefined on input line 160.
+
+
+LaTeX Warning: Reference `fig:1' on page 2 undefined on input line 160.
+
+<Control.png, id=21, 1046.91125pt x 636.3775pt>
 File: Control.png Graphic file (type png)
 <use Control.png>
-Package pdftex.def Info: Control.png  used on input line 103.
+Package pdftex.def Info: Control.png  used on input line 163.
 (pdftex.def)             Requested size: 258.0pt x 156.82176pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 103--104
+Overfull \hbox (6.0pt too wide) in paragraph at lines 163--164
  [][] 
  []
 
 [2 <./PIDvsRL.png> <./compare.png> <./Control.png>]
-<onego.png, id=161, 433.62pt x 172.645pt>
+
+LaTeX Warning: Reference `fig:bootstrap' on page 3 undefined on input line 182.
+
+
+
+LaTeX Warning: Citation `Osband2016DeepEV' on page 3 undefined on input line 18
+2.
+
+<onego.png, id=35, 433.62pt x 172.645pt>
 File: onego.png Graphic file (type png)
 <use onego.png>
-Package pdftex.def Info: onego.png  used on input line 128.
+Package pdftex.def Info: onego.png  used on input line 188.
 (pdftex.def)             Requested size: 129.0pt x 51.36186pt.
-<bootstrap.png, id=162, 591.20876pt x 391.4625pt>
+<bootstrap.png, id=36, 591.20876pt x 391.4625pt>
 File: bootstrap.png Graphic file (type png)
 <use bootstrap.png>
-Package pdftex.def Info: bootstrap.png  used on input line 133.
+Package pdftex.def Info: bootstrap.png  used on input line 193.
 (pdftex.def)             Requested size: 129.0pt x 85.4112pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 126--136
+Overfull \hbox (6.0pt too wide) in paragraph at lines 186--196
  []$[]$$[]$ 
  []
 
 
-LaTeX Warning: Reference `fig:cartpolePB' on page 3 undefined on input line 160
+LaTeX Warning: Citation `Brockman2016OpenAIG' on page 3 undefined on input line
+ 207.
+
+
+LaTeX Warning: Citation `tensorforce' on page 3 undefined on input line 207.
+
+
+LaTeX Warning: Reference `fig:cartpolePB' on page 3 undefined on input line 220
 .
 
+[3 <./onego.png> <./bootstrap.png>]
 
-LaTeX Warning: Reference `fig:CartPole' on page 3 undefined on input line 164.
+LaTeX Warning: Reference `fig:CartPole' on page 4 undefined on input line 224.
 
 
-LaTeX Warning: Reference `fig:InvertedPendulum' on page 3 undefined on input li
-ne 164.
+LaTeX Warning: Reference `fig:InvertedPendulum' on page 4 undefined on input li
+ne 224.
 
-<ip.png, id=165, 939.51pt x 505.89pt>
+<ip.png, id=47, 939.51pt x 505.89pt>
 File: ip.png Graphic file (type png)
 <use ip.png>
-Package pdftex.def Info: ip.png  used on input line 167.
+Package pdftex.def Info: ip.png  used on input line 227.
 (pdftex.def)             Requested size: 258.0pt x 138.92332pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 167--168
+Overfull \hbox (6.0pt too wide) in paragraph at lines 227--228
  [][] 
  []
 
-[3 <./onego.png> <./bootstrap.png>]
-Underfull \hbox (badness 7869) in paragraph at lines 173--174
+
+Underfull \hbox (badness 7869) in paragraph at lines 233--234
 \T1/ptm/m/n/10 (+20) of the fol-low-ing: [x po-si-tion of the cart, sin($\OML/c
 mm/m/it/10 ^^R[]$\T1/ptm/m/n/10 (+20) ),
  []
 
 
-LaTeX Warning: Reference `fig:doublePB' on page 4 undefined on input line 179.
+LaTeX Warning: Reference `fig:doublePB' on page 4 undefined on input line 239.
 
 
 LaTeX Warning: Reference `fig:Double Pendulum' on page 4 undefined on input lin
-e 182.
+e 242.
 
-<double.png, id=176, 939.51pt x 505.89pt>
+<double.png, id=48, 939.51pt x 505.89pt>
 File: double.png Graphic file (type png)
 <use double.png>
-Package pdftex.def Info: double.png  used on input line 186.
+Package pdftex.def Info: double.png  used on input line 246.
 (pdftex.def)             Requested size: 258.0pt x 138.92332pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 186--187
+Overfull \hbox (6.0pt too wide) in paragraph at lines 246--247
  [][] 
  []
 
 
-LaTeX Warning: Reference `fig:hopperPB' on page 4 undefined on input line 198.
+LaTeX Warning: Reference `fig:hopperPB' on page 4 undefined on input line 258.
 
+[4 <./ip.png> <./double.png>]
 
-LaTeX Warning: Reference `fig:Hopper' on page 4 undefined on input line 200.
+LaTeX Warning: Reference `fig:Hopper' on page 5 undefined on input line 260.
 
-<hopper.png, id=177, 939.51pt x 505.89pt>
+<hopper.png, id=61, 939.51pt x 505.89pt>
 File: hopper.png Graphic file (type png)
 <use hopper.png>
-Package pdftex.def Info: hopper.png  used on input line 204.
+Package pdftex.def Info: hopper.png  used on input line 264.
 (pdftex.def)             Requested size: 258.0pt x 138.92332pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 204--205
+Overfull \hbox (6.0pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
-[4 <./ip.png> <./double.png>] (./ControllerBasedCoaching.bbl [5 <./hopper.png>]
-) [6
+
+LaTeX Warning: Citation `Kaufmann2020DeepDA' on page 5 undefined on input line 
+273.
+
+(./ControllerBasedCoaching.bbl [5 <./hopper.png>]) [6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
- (./ControllerBasedCoaching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
-Package rerunfilecheck Info: File `ControllerBasedCoaching.out' has not changed
-.
-(rerunfilecheck)             Checksum: 4FB5FFF7B4E8800CCCFBEAB94CE8FFEF;571.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
 
+(./ControllerBasedCoaching.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+
+
+Package rerunfilecheck Warning: File `ControllerBasedCoaching.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ControllerBasedCoaching.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  4FB5FFF7B4E8800CCCFBEAB94CE8FFEF;571.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 23202 strings out of 481239
- 420023 string characters out of 5920378
- 698670 words of memory out of 5000000
- 37722 multiletter control sequences out of 15000+600000
- 656638 words of font info for 278 fonts, out of 8000000 for 9000
+ 23260 strings out of 481239
+ 420819 string characters out of 5920378
+ 698691 words of memory out of 5000000
+ 37766 multiletter control sequences out of 15000+600000
+ 656898 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,60p,1621b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,60p,1621b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ControllerBasedCoaching.pdf (6 pages, 375044 bytes).
+Output written on ControllerBasedCoaching.pdf (6 pages, 390979 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 26757 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 26677 words of extra memory for PDF output out of 29859 (max. 10000000)
 

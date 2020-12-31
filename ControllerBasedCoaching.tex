@@ -21,6 +21,10 @@
 \usepackage{tikz}
 \usetikzlibrary{trees}
 \usepackage{listings}
+\usepackage{array}
+\usepackage{colortbl,hhline}
+\usepackage{color}
+\usepackage{xcolor}
 
 \DeclareMathOperator*{\argmax}{arg\,max}  % in your preamble
 \DeclareMathOperator*{\argmin}{arg\,min}  % in your preamble
@@ -85,6 +89,62 @@ In this paper, we hand-tune the PID controllers as the 'coaches'. The performanc
   \label{fig:comparison}
 \end{subfigure}
 \end{figure}
+
+
+\begin{table}
+\footnotesize
+\caption{PID Controller Vs Agent Score}
+\label{score}
+\centering
+\begin{tabular}{ |c|c|c|c| }
+\hline
+\cellcolor[HTML]{6195C9}Environment & \cellcolor[HTML]{6195C9}  PID Controller &\cellcolor[HTML]{6195C9}RL Agent &\cellcolor[HTML]{6195C9}PID\textbackslash RL \\
+\hline
+Inverted Pendulum &  264 & 1001& \cellcolor{lightgray}26.4\%\\
+\hline
+Double Pendulum &  358 & 9319&3.8\%\\
+\hline
+Hopper &  303 & 989&30.6\%\\
+\hline
+Walker &  332 & 1009&32.9\%\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\scriptsize
+%\renewcommand{\arraystretch}{1.3}
+%\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+
+\caption{Comparison Between Agents Trained With and Without PID Controller Coaching}
+\label{table_example}
+\centering
+\begin{tabular}{ |c|c||c|c|c|c| }
+\hline
+Environment & Target & Measure  &  With PID  & Without  & Percentage\\
+   Name     & Score  &              & Coaching  & Coaching  & Increase \\
+\hline
+\hline
+
+
+Inverted & 800& 5 Wins & 106 & 160& 23\% \\
+Pendulum & &Average  & 108 &  159& 13\%\\
+\hline
+Double & 800& 5 Wins & 106 & 160\\
+Pendulum & &Average & 108 &  159\\
+\hline
+Hopper & 800& 5 Wins & 106 & 160\\
+       & &Average  & 108 &  159\\
+\hline
+Walker & 800& 5 Wins & 106 & 160\\
+       & &Average  & 108 &  159\\
+\hline
+
+\end{tabular}
+\end{table}
+
+
 
 
 In section II we provide the basic understanding of reinforcement learning as seen from control perspective. In section III, we present the results of all our experiments. While the experiments are conducted in Mujoco simulated environment, we consciously designed things in a way such that it can be conveniently implemented in the physical world as well. In the final section, we conclude what we have learned from our experiments and layout directions for further research.
@@ -217,7 +277,5 @@ We believe our research opens door to a rich reservoir of potential researches a
 \bibliographystyle{IEEEtran}
 \bibliography{Bibliography}
 %\printbibliography
-
-
 
 \end{document}
