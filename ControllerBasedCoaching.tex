@@ -45,7 +45,7 @@
 \begin{document}
 \bstctlcite{IEEEexample:BSTcontrol}
     \title{test}
-\title{Coaching with PID Controllers: A Novel Approach for Merging Classic Control with Reinforcement Learning}
+\title{Coaching with PID Controllers: A Novel Approach for Merging Classic Control with Learning}
 
 \author{ Zongqiang Pang, Liping Bai \thanks{Nanjing Unversity of Posts and Telecommunications, College of Automation \& College of Artificial Intelligence, Nanjing, Jiangsu,210000 China email:zqpang@njupt.edu.cn}}
 % ====================================================================
@@ -53,7 +53,7 @@
 % === ABSTRACT ====================================================================
 % =================================================================================
 \begin{abstract}
-In this paper, we propose a PID controller based coaching scheme in order to expidite data collection on critical states and accelerate reinforcement learning (RL). In previous attempts for fusing classical control and RL, training accelerations are brought about with the cost of implicit caps on what is attainable by the RL agents, and high quality controllers are essential. We ask if it possible to accelerate RL with even a basic hand-tuned PID controller and we draw inspiration from the relationship between atheletes and their coaches. World class atheletes are by definition the top of their field, yet training with coaches who are less capable than them is still an integral part of their skills acquisition process. The job of a coach is not to function as a template to be imitated, but rather to provide conditions for the atheletes to collect critical experiences and that is what we seek to replicate in our approach. Experiments are conducted in Mujoco locomotion environments and we conclude from the data that when the coaching structure between PID controller and RL agents is set at its goldilocks spot, agents training can be accelerated, in some cases significantly, yielding uncompromised training results in the mean time. This is an important proof of concept that controller based coaching can be a novel and effective paradigm for merging classical control with learning and warrants further investigations along this direction. All the code and data can be found at: \href{https://github.com/BaiLiping/Coaching}{github.com/BaiLiping/Coaching}
+In this paper, we propose a PID controller based coaching scheme in order to expidite data collection on critical states and accelerate reinforcement learning (RL). In previous attempts for fusing classical control and RL, training accelerations are brought about with the cost of implicit caps on what is attainable by the RL agents, and high quality controllers are essential. We ask if it possible to accelerate RL with even a basic hand-tuned PID controller, which is probably the most abundant controller in the field. We draw inspiration from the relationship between atheletes and their coaches. World class atheletes are by definition the top of their field, yet training with coaches who are less capable than them is still an integral part of their skills acquisition process. The job of a coach is not to function as a template to be imitated, but rather to provide conditions for the atheletes to collect critical experiences and that is what we seek to replicate in our approach. Experiments are conducted in Mujoco locomotion environments, specifically the inverted pendulum, inverted double pendulum, hopper, and walker simulations. We conclude from the data that when the coaching structure between PID controller and RL agents is set at its goldilocks spot, agents training can be accelerated, yielding uncompromised training results in the mean time. This is an important proof of concept that controller based coaching can be a novel and effective paradigm for merging classical control with learning and warrants further investigations along this direction. All the code and data can be found at: \href{https://github.com/BaiLiping/Coaching}{github.com/BaiLiping/Coaching}
 \end{abstract}
 % === KEYWORDS ====================================================================
 % =================================================================================
@@ -72,61 +72,41 @@ In this paper, we propose an additional angle of attack: classical controllers b
 
 Professional athletes don't get where they are via trial-and-error. Their skillsets are forged through coaching. Have you ever wondered why top atheletes who represent the best in that sport still need coaching from people who are less capable? The objective of a coach is to facilitate data collection on critical states, therefore the capacity of the coach per se is not essential for training purposes. This provide us with empirical evidence that training acceleration can be achieved with properly constructed coaching scheme, and the demand on controller quality should not be strigent. 
 
-In this paper, we hand-tune the PID controllers as the 'coaches'. The performance of the PID controllers is miserable comapare to the respective RL agent as shown by Figure \ref{fig:pid}. Yet, even with such bad controllers, when structured properly, training acceleration is still observed, as shown by Figure \ref{fig:comparison}. The detailed of our implementation and caveats would be detailed in subsequent sections.
+In this paper, we hand-tune the PID controllers as the 'coaches'. The performance of the PID controllers is miserable comapare to the respective RL agent as shown by Table \ref{score_compare}. Yet, even with such bad controllers, when structured properly, training acceleration is still observed, as shown by Table \ref{episode_compare}. The detailed of our implementation and caveats would be detailed in subsequent sections.
 
-\begin{figure}
-\centering
-\begin{subfigure}{0.25\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{PIDvsRL.png}
-  \caption{Performance Comparison. Hand-Tuned PID controllers perform miserably compare to the perepective RL agent.}
-  \label{fig:pid}
-\end{subfigure}%
-\begin{subfigure}{.25\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{compare.png}
-  \caption{Even though the PID controllers are less capable than the eventual RL agent. During the training phase, it is still helpful and can accelerate the RL agent training, as indicated by the number of episodes training required to reach a predetermined target score.}
-  \label{fig:comparison}
-\end{subfigure}
-\end{figure}
 
 \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
 \definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}
 
-\begin{table}
+\begin{table}[H]
 \footnotesize
-\caption{PID Controller Vs Agent Score}
-\label{score}
+\caption{PID Controller Vs Agent Score.Performance Comparison. Hand-Tuned PID controllers perform miserably compare to the perepective RL agent.}
+\label{score_compare}
 \centering
 \begin{tabular}{ cccc }
-\hline
 \rowcolor{airforceblue}
 Environment &   PID Controller &RL Agent &PID\textbackslash RL \\
-\hhline~
+Inverted Pendulum &  273 & 1000&  27.3\%\\
 \rowcolor{beaublue}
-Inverted Pendulum &  264 & 1001& \cellcolor{lightgray}26.4\%\\
-\hhline~
-Double Pendulum &  358 & 9319&\cellcolor{lightgray}3.8\%\\
-\hhline~
+
+Double Pendulum &  424 & 9319& 4.5\%\\
+
+Hopper &  594 & 989& 60.1\%\\
 \rowcolor{beaublue}
-Hopper &  303 & 989&\cellcolor{lightgray}30.6\%\\
-\hhline~
-Walker &  332 & 1009&\cellcolor{lightgray}32.9\%\\
-\hline
+Walker &  469 & 1009& 46.5\%\\
 \end{tabular}
 \end{table}
 
 
-\begin{table}
+\begin{table}[H]
 \scriptsize
 %\renewcommand{\arraystretch}{1.3}
 %\newcolumntype{x}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
 
-\caption{Comparison Between Agents Trained With and Without PID Controller Coaching}
-\label{table_example}
+\caption{Comparison Between Agents Trained With and Without PID Controller Coaching.Even though the PID controllers are less capable than the eventual RL agent. During the training phase, it is still helpful and can accelerate the RL agent training, as indicated by the number of episodes training required to reach a predetermined target score.}
+\label{episode_compare}
 \centering
 \begin{tabular}{ cccccc }
-\hline
 \rowcolor{airforceblue}
 
 Environment & Target & Measure  &  With PID  & Without  & Percentage\\
@@ -136,18 +116,19 @@ Environment & Target & Measure  &  With PID  & Without  & Percentage\\
 \hline
 
 
-Inverted & 800& 5 Wins & 106 & 160& 23\% \\
-Pendulum & &Average  & 108 &  159& 13\%\\
-\hline
-Double & 800& 5 Wins & 106 & 160\\
-Pendulum & &Average & 108 &  159\\
-\hline
-Hopper & 800& 5 Wins & 106 & 160\\
-       & &Average  & 108 &  159\\
-\hline
-Walker & 800& 5 Wins & 106 & 160\\
-       & &Average  & 108 &  159\\
-\hline
+Inverted & 800& Win Streak & 106 & 160&  33.8\% \\
+
+Pendulum & &Average  & 108 &  159&  32.1\%\\
+\rowcolor{beaublue}
+Double & 5500& 5 Wins & 1354 & 2237&  39.5\%\\
+\rowcolor{beaublue}
+Pendulum & &Average & 1315 &  2230&  41.0\%\\
+Hopper & 800& 5 Wins & 2278 & 2851&  20.1\%\\
+       & &Average  & 2226 &  2781&  20.0\%\\
+\rowcolor{beaublue}
+Walker & 800& 5 Wins & 106 & 160&  13\%\\
+\rowcolor{beaublue}
+       & &Average  & 108 &  159&  13\%\\
 
 \end{tabular}
 \end{table}

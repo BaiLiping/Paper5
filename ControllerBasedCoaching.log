@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  31 DEC 2020 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  31 DEC 2020 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,17 +984,12 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count335
-<PIDvsRL.png, id=88, 462.528pt x 346.896pt>
-File: PIDvsRL.png Graphic file (type png)
-<use PIDvsRL.png>
-Package pdftex.def Info: PIDvsRL.png  used on input line 81.
-(pdftex.def)             Requested size: 129.0pt x 96.7491pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1003,7 +998,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1012,144 +1007,135 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<compare.png, id=90, 462.528pt x 346.896pt>
-File: compare.png Graphic file (type png)
-<use compare.png>
-Package pdftex.def Info: compare.png  used on input line 87.
-(pdftex.def)             Requested size: 129.0pt x 96.7491pt.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 79--91
- []$[]$$[]$ 
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<Control.png, id=145, 1046.91125pt x 636.3775pt>
+<Control.png, id=142, 1046.91125pt x 636.3775pt>
 File: Control.png Graphic file (type png)
 <use Control.png>
-Package pdftex.def Info: Control.png  used on input line 168.
+Package pdftex.def Info: Control.png  used on input line 152.
 (pdftex.def)             Requested size: 258.0pt x 156.82176pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 168--169
+Overfull \hbox (6.0pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
-[2 <./PIDvsRL.png> <./compare.png> <./Control.png>]
-<onego.png, id=163, 433.62pt x 172.645pt>
+[2 <./Control.png>]
+<onego.png, id=158, 433.62pt x 172.645pt>
 File: onego.png Graphic file (type png)
 <use onego.png>
-Package pdftex.def Info: onego.png  used on input line 193.
+Package pdftex.def Info: onego.png  used on input line 177.
 (pdftex.def)             Requested size: 129.0pt x 51.36186pt.
-<bootstrap.png, id=164, 591.20876pt x 391.4625pt>
+<bootstrap.png, id=159, 591.20876pt x 391.4625pt>
 File: bootstrap.png Graphic file (type png)
 <use bootstrap.png>
-Package pdftex.def Info: bootstrap.png  used on input line 198.
+Package pdftex.def Info: bootstrap.png  used on input line 182.
 (pdftex.def)             Requested size: 129.0pt x 85.4112pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 191--201
+Overfull \hbox (6.0pt too wide) in paragraph at lines 175--185
  []$[]$$[]$ 
  []
 
 
-LaTeX Warning: Reference `fig:cartpolePB' on page 3 undefined on input line 225
+LaTeX Warning: Reference `fig:cartpolePB' on page 3 undefined on input line 209
 .
 
 [3 <./onego.png> <./bootstrap.png>]
 
-LaTeX Warning: Reference `fig:CartPole' on page 4 undefined on input line 229.
+LaTeX Warning: Reference `fig:CartPole' on page 4 undefined on input line 213.
 
 
 LaTeX Warning: Reference `fig:InvertedPendulum' on page 4 undefined on input li
-ne 229.
+ne 213.
 
-<ip.png, id=177, 939.51pt x 505.89pt>
+<ip.png, id=172, 939.51pt x 505.89pt>
 File: ip.png Graphic file (type png)
 <use ip.png>
-Package pdftex.def Info: ip.png  used on input line 232.
+Package pdftex.def Info: ip.png  used on input line 216.
 (pdftex.def)             Requested size: 258.0pt x 138.92332pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 232--233
+Overfull \hbox (6.0pt too wide) in paragraph at lines 216--217
  [][] 
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 238--239
+Underfull \hbox (badness 7869) in paragraph at lines 222--223
 \T1/ptm/m/n/10 (+20) of the fol-low-ing: [x po-si-tion of the cart, sin($\OML/c
 mm/m/it/10 ^^R[]$\T1/ptm/m/n/10 (+20) ),
  []
 
 
-LaTeX Warning: Reference `fig:doublePB' on page 4 undefined on input line 244.
+LaTeX Warning: Reference `fig:doublePB' on page 4 undefined on input line 228.
 
 
 LaTeX Warning: Reference `fig:Double Pendulum' on page 4 undefined on input lin
-e 247.
+e 231.
 
-<double.png, id=178, 939.51pt x 505.89pt>
+<double.png, id=173, 939.51pt x 505.89pt>
 File: double.png Graphic file (type png)
 <use double.png>
-Package pdftex.def Info: double.png  used on input line 251.
+Package pdftex.def Info: double.png  used on input line 235.
 (pdftex.def)             Requested size: 258.0pt x 138.92332pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 251--252
+Overfull \hbox (6.0pt too wide) in paragraph at lines 235--236
  [][] 
  []
 
 
-LaTeX Warning: Reference `fig:hopperPB' on page 4 undefined on input line 263.
+LaTeX Warning: Reference `fig:hopperPB' on page 4 undefined on input line 247.
 
-[4 <./ip.png> <./double.png>]
 
-LaTeX Warning: Reference `fig:Hopper' on page 5 undefined on input line 265.
+LaTeX Warning: Reference `fig:Hopper' on page 4 undefined on input line 249.
 
-<hopper.png, id=190, 939.51pt x 505.89pt>
+<hopper.png, id=174, 939.51pt x 505.89pt>
 File: hopper.png Graphic file (type png)
 <use hopper.png>
-Package pdftex.def Info: hopper.png  used on input line 269.
+Package pdftex.def Info: hopper.png  used on input line 253.
 (pdftex.def)             Requested size: 258.0pt x 138.92332pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 269--270
+Overfull \hbox (6.0pt too wide) in paragraph at lines 253--254
  [][] 
  []
 
-(./ControllerBasedCoaching.bbl [5 <./hopper.png>]) [6
+[4 <./ip.png> <./double.png>] (./ControllerBasedCoaching.bbl [5 <./hopper.png>]
+) [6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
-
-(./ControllerBasedCoaching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+ (./ControllerBasedCoaching.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `ControllerBasedCoaching.out' has not changed
 .
-(rerunfilecheck)             Checksum: 4FB5FFF7B4E8800CCCFBEAB94CE8FFEF;571.
+(rerunfilecheck)             Checksum: 8A92EC6AB57596B9CFC1E6D292B35030;571.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 270.
  ) 
 Here is how much of TeX's memory you used:
- 23267 strings out of 481239
- 420940 string characters out of 5920378
- 703739 words of memory out of 5000000
- 37779 multiletter control sequences out of 15000+600000
- 656638 words of font info for 278 fonts, out of 8000000 for 9000
+ 23253 strings out of 481239
+ 420730 string characters out of 5920378
+ 707353 words of memory out of 5000000
+ 37765 multiletter control sequences out of 15000+600000
+ 656768 words of font info for 280 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,60p,1621b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,9n,60p,1741b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ControllerBasedCoaching.pdf (6 pages, 393279 bytes).
+Output written on ControllerBasedCoaching.pdf (6 pages, 347375 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 26757 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 26747 words of extra memory for PDF output out of 29859 (max. 10000000)
 
