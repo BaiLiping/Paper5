@@ -21,45 +21,45 @@ Warning--empty booktitle in Hewing2020LearningBasedMP
 Warning--empty journal in SpinningUp2018
 
 Done.
-You've used 21 entries,
+You've used 28 entries,
             3975 wiz_defined-function locations,
-            914 strings with 10778 characters,
-and the built_in function-call counts, 12386 in all, are:
-= -- 920
-> -- 362
-< -- 58
-+ -- 188
-- -- 75
-* -- 588
-:= -- 1952
-add.period$ -- 42
-call.type$ -- 21
-change.case$ -- 21
-chr.to.int$ -- 129
-cite$ -- 24
-duplicate$ -- 974
-empty$ -- 1088
-format.name$ -- 94
-if$ -- 2800
+            952 strings with 12432 characters,
+and the built_in function-call counts, 17564 in all, are:
+= -- 1286
+> -- 582
+< -- 84
++ -- 298
+- -- 124
+* -- 844
+:= -- 2715
+add.period$ -- 56
+call.type$ -- 28
+change.case$ -- 28
+chr.to.int$ -- 183
+cite$ -- 31
+duplicate$ -- 1363
+empty$ -- 1496
+format.name$ -- 149
+if$ -- 3985
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 186
-newline$ -- 85
-num.names$ -- 21
-pop$ -- 493
+int.to.str$ -- 28
+missing$ -- 273
+newline$ -- 106
+num.names$ -- 28
+pop$ -- 718
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 966
+skip$ -- 1357
 stack$ -- 0
-substring$ -- 322
-swap$ -- 669
-text.length$ -- 15
+substring$ -- 455
+swap$ -- 968
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 0
 warning$ -- 3
-while$ -- 36
-width$ -- 23
-write$ -- 202
+while$ -- 49
+width$ -- 30
+write$ -- 266
 (There was 1 error message)
