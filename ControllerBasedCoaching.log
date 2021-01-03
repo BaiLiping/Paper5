@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  4 JAN 2021 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.2)  4 JAN 2021 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,15 +1136,15 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 299--300
 D.png> <./walker.png>]) [6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
  (./ControllerBasedCoaching.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
 Package rerunfilecheck Info: File `ControllerBasedCoaching.out' has not changed
 .
 (rerunfilecheck)             Checksum: 8F9515AA361F322815FFF246BBF7DF8C;499.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
  ) 
 Here is how much of TeX's memory you used:
  23268 strings out of 481239
@@ -1160,7 +1160,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ControllerBasedCoaching.pdf (6 pages, 1042862 bytes).
+Output written on ControllerBasedCoaching.pdf (6 pages, 1042933 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams
